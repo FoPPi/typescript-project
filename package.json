@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "tsc --watch"
+    "watch": "tsc --watch",
+    "start": "npm run build && open index.html"
   },
   "keywords": [],
   "author": "",
