@@ -16,7 +16,7 @@ yarn-error.log*
 .env.production.local
 
 # Build artifacts
-dist/
+# dist/
 build/
 coverage/
 
